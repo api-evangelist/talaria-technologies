@@ -70,3 +70,9 @@ x-enrichment:
   pass: local-v1
   note: Defunct developer-tools company (PHP JIT / web app server), acquired by Google
     2013; no live API surface, website, or docs to enrich.
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/google/
+  name: Google
+  x-relationship: acquired
+  x-evidence: "vc, PrivCo, Bloomberg, CB Insights), Talaria was acquired by Google in 2013 and ceased operating as an independent company; it maintains no active website, developer portal, or public API surface today."
